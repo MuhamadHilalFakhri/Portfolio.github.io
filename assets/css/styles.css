@@ -610,6 +610,22 @@ body.light-theme{
    z-index: var(--z-modal);
 }
 
+.services__modal-back {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .services__modal-back:hover {
+    background-color: #ccc;
+  }
+  
+
 .services__modal-content{
     position: relative;
     background-color: var(--body-color);
